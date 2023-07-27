@@ -1,6 +1,6 @@
 #!/usr/bin/with-contenv bashio
 
-declare -A ARCH_MAP="( [armv7]=arm7 [amd64]=amd64 [i386]=386 )"
+declare -A ARCH_MAP="( [armv7]=arm7 [amd64]=amd64 [i386]=386 [aarch64]=arm64 )"
 
 TS_SOURCE="TorrServer-linux-${ARCH_MAP[${BUILD_ARCH}]}"
 TS_URL="https://github.com/YouROK/TorrServer/releases/latest/download/${TS_SOURCE}"
